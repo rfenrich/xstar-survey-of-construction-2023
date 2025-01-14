@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Survey of Construction 2023")
 st.write(
-    "Investigation of the 2023 US Census Bureau Survey of Construction."
+    "Investigation of the 2023 [US Census Bureau Survey of Construction](https://www.census.gov/construction/soc/index.html)."
 )
 
 data = pd.read_csv("soc2023.csv")
